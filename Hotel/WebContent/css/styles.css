@@ -1,0 +1,162 @@
+@import 'font-awesome.css';
+
+html { 
+ position:relative; 
+ min-height:100%;
+}
+body {
+	height: 100%;
+	min-width:900px;
+}
+
+.container {
+   width:100%;
+   padding-bottom: 100px;
+}
+
+#article p.txt{
+	text-indent: 30px;
+}
+
+#center{
+	text-align: center;
+}
+
+#back{
+	width: 6%;
+	height: 6%;
+}
+
+#language{
+	margin-left: 90%;
+}
+
+.navbar-default {
+    background-image: url('../img/wet_snow.png');
+}
+.btn {
+	margin-top: 4%;
+}
+#bar-bottom{ 
+	padding-bottom: 0px;
+}
+
+#login-div {
+	align: center;
+	width: 25%;
+}
+.navbar { 
+	padding-top: 0px;	
+	height: 10%;
+}
+
+#for_user{
+	 background-image: url('../img/wet_snow.png');
+}
+
+.clear {
+    clear:both;
+    }
+footer {
+    height: 70px;
+    position: absolute;
+	bottom: 0;
+    margin-top: 3%;
+    background-image: url('../img/wet_snow.png');
+	width: 100%;
+}
+#active_user{
+	width: 80%; 
+	margin-top: 2%
+}
+#active_guest .breadcrumb, #active_user .breadcrumb{
+	 background-image: url('../img/wet_snow.png');
+}
+       
+#locale{
+	float: left;
+}
+#hotelname, #article_h3{
+	text-align: center;
+}
+#en{
+	float: left;
+}
+
+#btn-lang-ru, #btn-lang-en, #btn-login{
+	border-radius: 80%;
+	margin-rigth:  5%;
+	margin-top: 1%;
+}
+#btn_apply, #change_apartment{
+	margin-top: 0%;
+}
+#article{
+	margin-top: 2%;
+	text-align: center;
+}
+#contact{
+	font-weight: bolder;
+	text-aling: center;
+}
+
+#logout_form, #logout_form{
+	text-align: center;
+}
+
+#cabinet{
+	padding-left: 80%;
+}
+
+#table-header{
+	font-weight: bolder;
+	text-align:center
+}
+
+#choose{
+	width: 100%;
+	margin-top: 2%;
+}
+
+#glyphicon{
+	aria-hidden: true;
+}
+
+:focus {
+	outline: none;
+}
+
+#myCarousel{
+	data-ride: carousel;
+}
+#indicator1{
+	data-target: #myCarousel;
+	 data-slide-to: 0;
+}
+
+#indicator2{
+	 data-target:#myCarousel;
+	  data-slide-to: 1;
+}
+
+#indicator3{
+	 data-target:#myCarousel;
+	  data-slide-to: 2;
+}
+#indicator4{
+	 data-target:#myCarousel;
+	  data-slide-to: 3;
+}
+#indicator5{
+	 data-target:#myCarousel;
+	  data-slide-to: 4;
+}
+#indicator6{
+	 data-target:#myCarousel;
+	  data-slide-to: 5;
+}
+
+#carousel-inner{
+	role: listbox;
+}
+

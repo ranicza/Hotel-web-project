@@ -1,0 +1,10 @@
+.settings
+build
+.idea
+*.class
+*.classpath
+*.project
+bin/
+Hotel.iml
+src.test
+target

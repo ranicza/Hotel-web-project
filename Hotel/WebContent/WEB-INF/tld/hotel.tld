@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<taglib version="2.0"
+	xmlns="http://java.sun.com/JSP/TagLibraryDescriptor"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd">
+	
+	<!--дескриптор библиотеки тегов -->
+	<tlib-version>1.0</tlib-version>
+	<short-name>ht</short-name>
+	<uri>/WEB-INF/tld/hoteltag.tld</uri>
+	<tag>
+		<name>today</name>
+		<tag-class>com.epam.te.hotel.tags.TodayTag</tag-class>
+		<body-content>empty</body-content>
+		<info>Тег, отображающий дату сервера в заданном пользователем формате</info>
+		<attribute>
+			<name>format</name>
+			<required>true</required>
+			<description>Provide a display format</description>
+			<rtexprvalue>false</rtexprvalue>
+		</attribute>
+	</tag>
+	<tag>
+		<name>delta</name>
+		<tag-class>com.epam.te.hotel.tags.DeltaDateTag</tag-class>
+		<body-content>empty</body-content>
+		<info>Тег отображающий количество дней, проведенных в номере</info>
+		<attribute>
+			<name>dateDeparture</name>
+			<required>true</required>
+			<description>Date of departure</description>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+		<attribute>
+			<name>dateArrival</name>
+			<required>true</required>
+			<description>Date of arrival</description>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+	</tag>
+	<tag>
+		<name>totalcost</name>
+		<tag-class>com.epam.te.hotel.tags.TotalCostTag</tag-class>
+		<body-content>empty</body-content>
+		<info>Тег, отображающий сумму заказа</info>
+		<attribute>
+			<name>delta</name>
+			<required>true</required>
+			<description>Day in hotel</description>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+		<attribute>
+			<name>costPerDay</name>
+			<required>true</required>
+			<description>Cost per day</description>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+	</tag>
+</taglib>
+
+
